@@ -26,6 +26,27 @@ img {
   width: 500px;
   padding: 30px;
 }
-.position {
-    float: right;
+.divBG1 {
+  background-image: url(".\img\DSC00114-1.jpg");
+  height: 600px;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
+
+/* Place text in the middle of the image */
+.heroText {
+    text-align: center;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.img-left {
+    float: left;
+}.img-right {
+    float: right;
