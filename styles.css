@@ -1,2 +1,14 @@
-
-/* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
+header {
+  color: #fff;
+  padding: 40px;
+  background-color: #b2a066;
+}
+h1  {
+  font-size: 40px;
+  color: #fff;
+  font-family: 'Clicker Script', cursive;
+}
+img {
+  width: 500px;
+  padding: 50px;
+}
