@@ -1,14 +1,31 @@
 header {
+  text-align: center;
   color: #fff;
-  padding: 40px;
+  padding: 10px;
   background-color: #b2a066;
 }
-h1  {
-  font-size: 40px;
+.tagline {
   color: #fff;
-  font-family: 'Clicker Script', cursive;
+  font-size: 18px;
+}
+h1  {
+  font-size: 60px;
+  color: #fff;
+  font-family: 'Great Vibes', cursive;
+}
+h2 {
+  font-size: 30px;
+  margin-left: 30px;
+  color: #b2a066;
+}
+p {
+  margin-left: 30px;
+  color: #3d3e3f;
 }
 img {
   width: 500px;
-  padding: 50px;
+  padding: 30px;
+}
+.position {
+    float: right;
 }
