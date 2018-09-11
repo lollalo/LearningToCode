@@ -9,7 +9,7 @@ header {
   font-size: 18px;
 }
 h1  {
-  font-size: 60px;
+  font-size: 70px;
   color: #fff;
   font-family: 'Great Vibes', cursive;
 }
@@ -18,37 +18,38 @@ h2 {
   margin-left: 30px;
   color: #b2a066;
 }
+h3  {
+  font-size: 40px;
+  color: #fff;
+}
 p {
   margin-left: 30px;
+  margin-bottom: 30px;
 }
 img {
-  width: 500px;
-  padding: 30px;
+  max-height: 1000px;
 }
-.divBG1 {
-  background-image: url("./img/DSC00114-1.jpg");
-  height: 400px;
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  /* Container holding the image and the text */
+.container {
+    position: relative;
 }
-.divBG2 {
-  background-image: url("./img/DSC00048-1.jpg");
-  height: 400px;
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.text-block-left {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    background-color: white;
+    opacity: 0.8;
+    color: #36383a;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-.divBG3 {
-  background-image: url("./img/DSC00074-1.jpg");
-  height: 400px;
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.text-block-right {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    background-color: white;
+    opacity: 0.8;
+    color: #36383a;
+    padding-left: 50px;
+    padding-right: 50px;
 }
