@@ -32,6 +32,7 @@ img {
   /* Container holding the image and the text */
 .container {
     position: relative;
+    margin: 0px;
 }
 .text-block-left {
     position: absolute;
