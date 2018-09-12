@@ -32,11 +32,10 @@ img {
   /* Container holding the image and the text */
 .container {
     position: relative;
-    margin: -10px;
 }
 .text-block-left {
     position: absolute;
-    bottom: 50%;
+    bottom: 40%;
     right: 50%;
     background-color: white;
     opacity: 0.8;
@@ -46,7 +45,7 @@ img {
 }
 .text-block-right {
     position: absolute;
-    bottom: 50%;
+    bottom: 40%;
     left: 50%;
     background-color: white;
     opacity: 0.8;
